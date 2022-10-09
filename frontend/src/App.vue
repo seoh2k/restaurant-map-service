@@ -1,36 +1,28 @@
 <template>
   <div id="app">
-    <MainMap />
-    <SideBar class="side-bar" />
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import MainMap from './components/MainMap.vue';
-import SideBar from './components/SideBar.vue';
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    MainMap,
-    SideBar
+    HelloWorld
   }
 }
 </script>
 
 <style>
 #app {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.side-bar {
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
 }
 </style>
