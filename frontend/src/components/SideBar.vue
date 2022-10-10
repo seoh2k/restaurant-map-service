@@ -20,7 +20,7 @@
                 <div class="review-area">
                     <BFormTextarea
                         ref="textarea"
-                        placeholder="후기를 입력해주세요."
+                        placeholder="후기를 입력해주세요." 
                     />
                 </div>
             </div>
